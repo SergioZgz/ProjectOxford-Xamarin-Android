@@ -1,0 +1,7 @@
+Vision/bin/
+Vision/obj/
+packages/
+.vs/
+*.exe
+*.dll
+*.apk
