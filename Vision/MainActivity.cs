@@ -76,13 +76,13 @@
                     canvas.DrawLine(rect.Left + rect.Width, rect.Top + rect.Height, rect.Left + rect.Width, rect.Top, paint);
                     canvas.DrawLine(rect.Left + rect.Width, rect.Top, rect.Left, rect.Top, paint);
                     
-                    this.textview.Text = $"Enfado: {Math.Round(emotionResult.Scores.Anger * 100, 2)}%";
-                    this.textview.Text += "\n" + $"Desprecio: {Math.Round(emotionResult.Scores.Contempt * 100, 2)}%";
-                    this.textview.Text += "\n" + $"Asco: {Math.Round(emotionResult.Scores.Disgust * 100, 2)}%";
-                    this.textview.Text += "\n" + $"Miedo: {Math.Round(emotionResult.Scores.Fear * 100, 2)}%";
-                    this.textview.Text += "\n" + $"Neutral: {Math.Round(emotionResult.Scores.Neutral * 100, 2)}%";
-                    this.textview.Text += "\n" + $"Tristeza: {Math.Round(emotionResult.Scores.Sadness * 100, 2)}%";
-                    this.textview.Text += "\n" + $"Sorpresa: {Math.Round(emotionResult.Scores.Surprise * 100, 2)}%";
+                    this.textview.Text += $"Enfado: {Math.Round(emotionResult.Scores.Anger * 100, 2)}%\n";
+                    this.textview.Text += $"Desprecio: {Math.Round(emotionResult.Scores.Contempt * 100, 2)}%\n";
+                    this.textview.Text += $"Asco: {Math.Round(emotionResult.Scores.Disgust * 100, 2)}%\n";
+                    this.textview.Text += $"Miedo: {Math.Round(emotionResult.Scores.Fear * 100, 2)}%\n";
+                    this.textview.Text += $"Neutral: {Math.Round(emotionResult.Scores.Neutral * 100, 2)}%\n";
+                    this.textview.Text += $"Tristeza: {Math.Round(emotionResult.Scores.Sadness * 100, 2)}%\n";
+                    this.textview.Text += $"Sorpresa: {Math.Round(emotionResult.Scores.Surprise * 100, 2)}%\n";
                 }
             }
 
